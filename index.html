@@ -28,19 +28,19 @@
 		</div>
 	</section>
 	<section>
-		<div class="container menu">
+		<div class="container menu" id="home">
 			<img src="assets/img/emblem.png" class="emblem">
-			<span class="emblem-menu">home</span>
-			<span class="emblem-menu">service</span>
-			<span class="emblem-menu">about</span>
-			<span class="emblem-menu">protfolio</span>
-			<span class="emblem-menu">page</span>
-			<span class="emblem-menu">blog</span>
-			<span class="emblem-menu">contact</span>
+			<span class="emblem-menu"><a href="#home" class="scrollto">home</a></span>
+			<span class="emblem-menu"><a href="#service" class="scrollto">service</a></span>
+			<span class="emblem-menu"><a href="#about" class="scrollto">about</a></span>
+			<span class="emblem-menu"><a href="#protfolio" class="scrollto">protfolio</a></span>
+			<span class="emblem-menu"><a href="#page" class="scrollto">page</a></span>
+			<span class="emblem-menu"><a href="#blog" class="scrollto">blog</a></span>
+			<span class="emblem-menu"><a href="#contact" class="scrollto">contact</a></span>
 		</div>
 	</section>
 	<section style="height: 1150px;">
-		<div class="container about">
+		<div class="container about" id="about">
 			<h1 class="about-title">About<h1>
 			<h2 class="about-title-second">This is the one page polo</h2>
 			<div class="about-text">
@@ -228,7 +228,7 @@
 		</div>
 	</section>
 	<section>
-		<div class="container protfolio">
+		<div class="container protfolio" id="protfolio">
 			<div class="protfolio-info clearfix">
 				<h1 class="protfolio-title">work</h1>
 				<h2 class="protfolio-title-second">our protfolio</h2>
@@ -273,7 +273,7 @@
 		</div>
 	</section>
 	<section>
-		<div class="container service clearfix">
+		<div class="container service clearfix" id="service">
 			<img src="assets/img/colleagues.png" id="service-main-img">
 			<h1 class="service-title">service</h1>
 			<h2 class="service-title-second">clean idea and unique design</h2>
@@ -303,39 +303,282 @@
 		</div>
 	</section>
 	<section>
-		<div class="container pricing">
-			<div class="pricing-content">
+		<div class="container pricing" id="page">
+			<div class="pricing-content clearfix">
 				<h1 class="pricing-title">pricing</h1>
 				<h2 class="pricing-title-second">choose your plan</h2>
-				<div class="pricing-content-first pricing-content-element">
-<!-- 					<div class="pricing-content-first-info pricing-content-element-info"> -->
-						<div>
-							<h3>standart</h3>
-							<h2><sup>$</sup>107<sub>/month</sub></h2>
-							<p></p>
+				<div class="pricing-content-element-container pricing-content-element-container-first">
+					<div class="clearfix pricing-content-first pricing-content-element">
+						<div class="pricing-content-first-info pricing-content-element-info">
+							<div>
+								<h3>standart</h3>
+								<h2><sup>$</sup><span>107</span><sub>/month</sub></h2>
+								<p class="pricing-content-element-info-text">15 day free trial on all accounts</p>
+							</div>
 						</div>
+						<ul>
+							<li>> 10 Pages Website</li>
+							<li>> Sell 1 Product & Accept Donations</li>
+							<li>> Developer Platform</li>
+							<li>> 20 Pages, Galleries</li>
+							<li>> 120 GB Cloud Storage</li>
+						</ul>
+					</div>
+					<a href="">
+						<div class="pricing-content-element-btn">
+							<span>Get Started Now</span>
+						</div>
+					</a> 
+				</div>
+				<div class="pricing-content-element-container pricing-content-element-container-second">
+					<div class="pricing-content-second pricing-content-element">
+						<div class="pricing-content-second-info pricing-content-element-info">
+							<div>
+								<h3>premium</h3>
+								<h2><sup>$</sup><span>433</span><sub>/month</sub></h2>
+								<p class="pricing-content-element-info-text">15 day free trial on all accounts</p>
+							</div>
+						</div>
+						<ul>
+							<li>> 100 Pages Website</li>
+							<li>> Sell 1 Product & Accept Donations</li>
+							<li>> Developer Platform</li>
+							<li>> 90 Pages, Galleries</li>
+							<li>> 500 GB Cloud Storage</li>
+							<li>>    Mobile Website and Store</li>
+							<li></li>
+						</ul>
+					</div>
+					<a href="">
+						<div class="pricing-content-element-btn">
+							<span>Get Started Now</span>
+						</div>
+					</a> 
+				</div>
+				<div class="pricing-content-element-container pricing-content-element-container-third">
+					<div class="pricing-content-third pricing-content-element">
+						<div class="pricing-content-third-info pricing-content-element-info">
+							<div>
+								<h3>ultimate</h3>
+								<h2><sup>$</sup><span>1233</span><sub>/month</sub></h2>
+								<p class="pricing-content-element-info-text">15 day free trial on all accounts</p>
+							</div>
+						</div>
+						<ul>
+							<li>> 100 Pages Website</li>
+							<li>> Sell 1 Product & Accept Donations</li>
+							<li>> Developer Platform</li>
+							<li>> 90 Pages, Galleries</li>
+							<li>> 500 GB Cloud Storage</li>
+							<li>>   Mobile Website and Store</li>
+							<li>> 24/7 Support </li>
+						</ul>
+					</div>
+					<a href="">
+						<div class="pricing-content-element-btn">
+							<span>Get Started Now</span>
+						</div>
+					</a> 
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container clearfix staff">
+			<h1 class="staff-title">Expert</h1>
+			<h2 class="staff-title-second">meet our teem</h2>
+			<div class="staff-info staff-info-first">
+				<div class="staff-info-element">
+					<div class="staff-info-element-img"></div>
+				</div>
+				<div class="staff-info-text">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+				</div>
+				<div class="staff-info-element-over">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+					<p>Lorem ipsum dolor sit amet, nemore latine graecis id est, omnium latine eu per. Has ne illud appetere fabellas, ne quaeque nominati mea.</p>
+					<div class="staff-info-element-over-imgage">
+						<a href="" class="staff-info-element-over-img">
+							<img src="assets/img/nets.png">
+						</a>
 					</div>
 				</div>
-				<div class="pricing-content-second pricing-content-element">
-					<divv class="pricing-content-second-info pricing-content-element-info">
-						<div>
-							<h3>premium</h3>
-							<h2><sup>$</sup>433<sub>/month</sub></h2>
-							<p></p>
-						</div>
+			</div>
+			<div class="staff-info">
+				<div class="staff-info-element">
+					<div class="staff-info-element-img"></div>
+				</div>
+				<div class="staff-info-text">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+				</div>
+				<div class="staff-info-element-over">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+					<p>Lorem ipsum dolor sit amet, nemore latine graecis id est, omnium latine eu per. Has ne illud appetere fabellas, ne quaeque nominati mea.</p>
+					<div class="staff-info-element-over-imgage">
+						<a href="" class="staff-info-element-over-img">
+							<img src="assets/img/nets.png">
+						</a>
 					</div>
 				</div>
-				<div class="pricing-content-third pricing-content-element">
-					<divv class="pricing-content-third-info pricing-content-element-info">
-						<div>
-							<h3>ultimate</h3>
-							<h2><sup>$</sup>1233<sub>/month</sub></h2>
-							<p></p>
-						</div>
+			</div>
+			<div class="staff-info">
+				<div class="staff-info-element">
+					<div class="staff-info-element-img-second"></div>
+				</div>
+				<div class="staff-info-text">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+				</div>
+				<div class="staff-info-element-over">
+					<h2>Robert Willsom</h2>
+					<h3>Web Developer</h3>
+					<p>Lorem ipsum dolor sit amet, nemore latine graecis id est, omnium latine eu per. Has ne illud appetere fabellas, ne quaeque nominati mea.</p>
+					<div class="staff-info-element-over-imgage">
+						<a href="" class="staff-info-element-over-img">
+							<img src="assets/img/nets.png">
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section>
+		<div class="summary container">
+			<h1 class="summary-title">Are You Impressed By Our Work?</h1>
+			<p class="summary-text">Durabitur commodo ras non urna mauris mollis auctor proin laoreet</p>
+			<a href="">
+					<div class="summary-btn">
+						<span>PURCHASE NOW</span>
+				</div>
+			</a>
+			<a href="">
+				<div class="summary-btn" style="margin-left: 28px;">
+					<span>GET IN TOUCH</span>
+				</div>
+			</a>
+		</div>
+	</section>
+	<section>
+		<div class="container news clearfix" id="blog">
+			<h1 class="news-title">news</h1>
+			<h2 class="news-title-second">Recent Blog post</h2>
+			<div class="news-element news-element-first">
+				<div class="news-element-img-first"></div>
+				<h2>Single Image Post</h2>
+				<h3>by Admin  .  in Logo  .  1 Comment</h3>
+				<div class="news-element-btn-second">
+					<span>23 July 2016</span>
+				</div>
+				<div class="news-element-text">
+					<p>Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...</p>
+				</div>
+				<a href="">
+					<div class="news-element-btn">
+						<span>Read more</span>
+					</div>
+				</a>
+			</div>
+			<div class="news-element">
+				<div class="news-element-img-second"></div>
+				<div class="news-element-btn-second">
+					<span>23 July 2016</span>
+				</div>
+				<h2>gallery Image Post</h2>
+				<h3>by Admin  .  in Logo  .  1 Comment</h3>
+				<div class="news-element-text">
+					<p>Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...</p>
+				</div>
+				<a href="">
+					<div class="news-element-btn">
+						<span>Read more</span>
+					</div>
+				</a>
+			</div>
+			<div class="news-element">
+				<div class="news-element-img-third"></div>
+				<h2>Letest video Post</h2>
+				<h3>by Admin  .  in Logo  .  1 Comment</h3>
+				<div class="news-element-btn-second">
+					<span>23 July 2016</span>
+				</div>
+				<div class="news-element-text">
+					<p>Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...</p>
+				</div>
+				<a href="">
+					<div class="news-element-btn">
+						<span>Read more</span>
+					</div>
+				</a>
+			</div>
+			<div class="news-element">
+				<div class="news-element-img-fourth"></div>
+				<div class="news-element-btn-second">
+					<span>23 July 2016</span>
+				</div>
+				<h2>Single image Post</h2>
+				<h3>by Admin  .  in Logo  .  1 Comment</h3>
+				<div class="news-element-text">
+					<p>Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...</p>
+				</div>
+				<a href="">
+					<div class="news-element-btn">
+						<span>Read more</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container contact">
+				<h1 class="contact-title">contact</h1>
+				<h2 class="contact-title-second">send us message</h2>
+			<div class="contact-background">
+				<input type="text" class="contact-input contact-input-first" placeholder="Fast Name (Required)">
+				<input type="text" class="contact-input contact-input-second" placeholder="Last Name (Required)">
+				<input type="text" class="contact-input contact-input-third" placeholder="Email (Required)">
+				<input type="text" class="contact-input" placeholder="Subject">
+				<input type="text" class="contact-input-fifth" placeholder="Type your massage">
+			</div>
+			<button class="contact-btn">
+				<span>Send</span>
+			</button>
+		</div>
+	</section>
+	<section>
+		<div class="contact end">
+			<a href="">
+				<div class="maps">
+					<h1>Locate us on map <img src="assets/img/sing.png"></h1>
+				</div>
+			</a>
+			<div class="contact_with_us clearfix">
+				<div class="phone">
+					<div class="contact-logos">
+						<img src="assets/img/phone.png">
+					</div>
+					<span>Phone : (999) 000-122-233</span>
+				</div>
+				<img src="assets/img/contact-nets.png" class="contact-nets">
+				<div class="internet">
+					<div class="contact-logos">
+						<img src="assets/img/logo-planet.png">
+					</div>
+					<span>123 state, South America, 205</span>
+				</div>
+			</div>
+			<div class="end-background"></div>
+		</div>
+	</section>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script type="text/javascript" src="https://ianlunn.co.uk/plugins/jquery-parallax/scripts/jquery.parallax-1.1.3.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.6/dist/js/lightgallery.min.js"></script>
 </body>
 </html>
